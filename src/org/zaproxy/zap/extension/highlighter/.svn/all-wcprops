@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1424/branches/alpha/src/org/zaproxy/zap/extension/highlighter
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1424/branches/alpha/src/org/zaproxy/zap/extension/highlighter/ZapAddOn.xml
+END
+HighlighterManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/245/branches/alpha/src/org/zaproxy/zap/extension/highlighter/HighlighterManager.java
+END
+HighlightSearchEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/245/branches/alpha/src/org/zaproxy/zap/extension/highlighter/HighlightSearchEntry.java
+END
+HighlightEntryLineUi.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/245/branches/alpha/src/org/zaproxy/zap/extension/highlighter/HighlightEntryLineUi.java
+END
+OptionsHighlight.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/245/branches/alpha/src/org/zaproxy/zap/extension/highlighter/OptionsHighlight.java
+END
+HighlighterPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/245/branches/alpha/src/org/zaproxy/zap/extension/highlighter/HighlighterPanel.java
+END
+ExtensionHighlighter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/440/branches/alpha/src/org/zaproxy/zap/extension/highlighter/ExtensionHighlighter.java
+END

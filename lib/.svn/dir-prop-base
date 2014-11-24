@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 112
+itextpdf-5.3.0-javadoc.jar
+itextpdf-5.3.0-sources.jar
+itext-xtra-5.3.0-javadoc.jar
+itext-xtra-5.3.0-sources.jar
+
+END

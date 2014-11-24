@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/birtreports
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/birtreports/ZapAddOn.xml
+END
+AlertReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/755/branches/alpha/src/org/zaproxy/zap/extension/birtreports/AlertReport.java
+END
+BirtTopMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/birtreports/BirtTopMenu.java
+END
+logoTopMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/birtreports/logoTopMenu.java
+END
+ReportLastScan.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/birtreports/ReportLastScan.java
+END
+IAlertReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/755/branches/alpha/src/org/zaproxy/zap/extension/birtreports/IAlertReport.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/755/branches/alpha/src/org/zaproxy/zap/extension/birtreports/package-info.java
+END
+BirtScriptMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/birtreports/BirtScriptMenu.java
+END

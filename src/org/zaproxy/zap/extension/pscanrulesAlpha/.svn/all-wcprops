@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1404/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ZapAddOn.xml
+END
+XBackendServerInformationLeak.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1303/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/XBackendServerInformationLeak.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1405/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/Product.java
+END
+UserControlledCharsetScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1073/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/UserControlledCharsetScanner.java
+END
+UserControlledJavascriptEventScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1300/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/UserControlledJavascriptEventScanner.java
+END
+HeartBleedScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1175/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/HeartBleedScanner.java
+END
+DirectoryBrowsingScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1175/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/DirectoryBrowsingScanner.java
+END
+SourceCodeDisclosureScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1438/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/SourceCodeDisclosureScanner.java
+END
+VulnerabilityCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1409/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/VulnerabilityCache.java
+END
+UserControlledHTMLAttributesScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1391/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/UserControlledHTMLAttributesScanner.java
+END
+HashDisclosureScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1244/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/HashDisclosureScanner.java
+END
+CrossDomainMisconfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1338/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/CrossDomainMisconfiguration.java
+END
+ContentSecurityPolicyMissingScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1303/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ContentSecurityPolicyMissingScanner.java
+END
+UserControlledCookieScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1073/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/UserControlledCookieScanner.java
+END
+UserControlledOpenRedirectScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1073/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/UserControlledOpenRedirectScanner.java
+END
+InsecureFormPostScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1300/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/InsecureFormPostScanner.java
+END
+StrictTransportSecurityScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1303/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/StrictTransportSecurityScanner.java
+END
+ExampleFilePassiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1155/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ExampleFilePassiveScanner.java
+END
+ServerHeaderInfoLeakScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1334/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ServerHeaderInfoLeakScanner.java
+END
+XPoweredByHeaderInfoLeakScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1303/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/XPoweredByHeaderInfoLeakScanner.java
+END
+InsecureComponentScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1458/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/InsecureComponentScanner.java
+END
+Base64Disclosure.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1225/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/Base64Disclosure.java
+END
+TimestampDisclosureScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1439/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/TimestampDisclosureScanner.java
+END
+InsecureFormLoadScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1300/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/InsecureFormLoadScanner.java
+END
+ViewStateDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1061/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ViewStateDecoder.java
+END
+ExtensionPscanRulesAlpha.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1055/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ExtensionPscanRulesAlpha.java
+END
+ExampleSimplePassiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1154/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/ExampleSimplePassiveScanner.java
+END
+CVE.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1405/branches/alpha/src/org/zaproxy/zap/extension/pscanrulesAlpha/CVE.java
+END

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/cmss
+END
+CMSSFooterTab.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/CMSSFooterTab.java
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1424/branches/alpha/src/org/zaproxy/zap/extension/cmss/ZapAddOn.xml
+END
+PlunginGuesser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/PlunginGuesser.java
+END
+CMSSTopMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/CMSSTopMenu.java
+END
+FingerPrintingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/FingerPrintingThread.java
+END
+CMSFingerprinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1213/branches/alpha/src/org/zaproxy/zap/extension/cmss/CMSFingerprinter.java
+END
+WhatToFingerPrintFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/WhatToFingerPrintFrame.java
+END
+CMSSUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1213/branches/alpha/src/org/zaproxy/zap/extension/cmss/CMSSUtils.java
+END
+WebPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/WebPage.java
+END
+CMSSFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/CMSSFrame.java
+END
+Wappalyzer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/Wappalyzer.java
+END
+PluginFingerprinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/PluginFingerprinter.java
+END
+WebAppGuesser.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1213/branches/alpha/src/org/zaproxy/zap/extension/cmss/WebAppGuesser.java
+END
+FastFingerprinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/FastFingerprinter.java
+END
+CMSSThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/698/branches/alpha/src/org/zaproxy/zap/extension/cmss/CMSSThread.java
+END

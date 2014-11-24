@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1414/branches/alpha/build
+END
+nbbuild.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/1130/branches/alpha/build/nbbuild.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1414/branches/alpha/build/build.xml
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/612/branches/alpha/build/manifest.mf
+END

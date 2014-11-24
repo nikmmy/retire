@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/sse/ui
+END
+EventStreamView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1067/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/EventStreamView.java
+END
+EventStreamUiHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/EventStreamUiHelper.java
+END
+EventStreamViewModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/EventStreamViewModel.java
+END
+EventStreamPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/EventStreamPanel.java
+END
+icons.txt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/icons.txt
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/732/branches/alpha/src/org/zaproxy/zap/extension/saml/ui
+END
+SamlManualEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/732/branches/alpha/src/org/zaproxy/zap/extension/saml/ui/SamlManualEditor.java
+END
+AddAutoChangeAttributeUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/732/branches/alpha/src/org/zaproxy/zap/extension/saml/ui/AddAutoChangeAttributeUI.java
+END
+AddAttributeUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/732/branches/alpha/src/org/zaproxy/zap/extension/saml/ui/AddAttributeUI.java
+END
+SamlExtentionSettingsUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/732/branches/alpha/src/org/zaproxy/zap/extension/saml/ui/SamlExtentionSettingsUI.java
+END

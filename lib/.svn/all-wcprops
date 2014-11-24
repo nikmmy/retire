@@ -1,0 +1,329 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1452/branches/alpha/lib
+END
+json-lib-2.4-jdk15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/408/branches/alpha/lib/json-lib-2.4-jdk15.jar
+END
+commons-io-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/705/branches/alpha/lib/commons-io-2.4.jar
+END
+httpcore-4.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/1201/branches/alpha/lib/httpcore-4.2.2.jar
+END
+asm-analysis-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1201/branches/alpha/lib/asm-analysis-4.0.jar
+END
+JBroFuzzEncoder.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1051/branches/alpha/lib/JBroFuzzEncoder.jar
+END
+jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/614/branches/alpha/lib/jdom.jar
+END
+asm-tree-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1201/branches/alpha/lib/asm-tree-4.0.jar
+END
+org.eclipse.birt.runtime_4.2.2.v20130216-1152.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/763/branches/alpha/lib/org.eclipse.birt.runtime_4.2.2.v20130216-1152.jar
+END
+commons-codec-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/245/branches/alpha/lib/commons-codec-1.4.jar
+END
+odfdom-java-0.8.8-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/245/branches/alpha/lib/odfdom-java-0.8.8-incubating.jar
+END
+procyon-decompiler-0.5.25.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1366/branches/alpha/lib/procyon-decompiler-0.5.25.jar
+END
+commons-collections-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/276/branches/alpha/lib/commons-collections-3.2.1.jar
+END
+commons-codec-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1201/branches/alpha/lib/commons-codec-1.6.jar
+END
+commons-lang-2.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/245/branches/alpha/lib/commons-lang-2.6.jar
+END
+json-simple-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/705/branches/alpha/lib/json-simple-1.1.1.jar
+END
+joda-time-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/645/branches/alpha/lib/joda-time-2.2.jar
+END
+slf4j-api-1.7.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1201/branches/alpha/lib/slf4j-api-1.7.2.jar
+END
+jhall.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/276/branches/alpha/lib/jhall.jar
+END
+commons-cli-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1201/branches/alpha/lib/commons-cli-1.2.jar
+END
+soa-model-distribution-1.4.1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1201/branches/alpha/lib/soa-model-distribution-1.4.1.4.jar
+END
+hsqldb.jar
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/276/branches/alpha/lib/hsqldb.jar
+END
+JBroFuzz.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1051/branches/alpha/lib/JBroFuzz.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/1201/branches/alpha/lib/antlr-2.7.7.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1201/branches/alpha/lib/commons-logging-1.1.1.jar
+END
+asm-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1201/branches/alpha/lib/asm-4.0.jar
+END
+commons-csv-1.0-20140724.224535-299.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1452/branches/alpha/lib/commons-csv-1.0-20140724.224535-299.jar
+END
+zap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/1296/branches/alpha/lib/zap.jar
+END
+xslt-runner-1.2.1-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/245/branches/alpha/lib/xslt-runner-1.2.1-incubating.jar
+END
+ZAPSNITerminator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1422/branches/alpha/lib/ZAPSNITerminator.jar
+END
+xslt-runner-task-1.2.1-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/245/branches/alpha/lib/xslt-runner-task-1.2.1-incubating.jar
+END
+simple-odf-0.7-incubating.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/245/branches/alpha/lib/simple-odf-0.7-incubating.jar
+END
+itext-xtra-5.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/245/branches/alpha/lib/itext-xtra-5.3.0.jar
+END
+log4j-1.2.16.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/245/branches/alpha/lib/log4j-1.2.16.jar
+END
+diffutils-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/245/branches/alpha/lib/diffutils-1.2.1.jar
+END
+gson-2.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/408/branches/alpha/lib/gson-2.2.2.jar
+END
+groovy-2.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1201/branches/alpha/lib/groovy-2.0.4.jar
+END
+asm-util-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/1201/branches/alpha/lib/asm-util-4.0.jar
+END
+jfxrt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/962/branches/alpha/lib/jfxrt.jar
+END
+soa-model-core-1.4.1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1201/branches/alpha/lib/soa-model-core-1.4.1.4.jar
+END
+asm-commons-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1201/branches/alpha/lib/asm-commons-4.0.jar
+END
+swingx-all-1.6.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1067/branches/alpha/lib/swingx-all-1.6.4.jar
+END
+jgraphx-2.0.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1198/branches/alpha/lib/jgraphx-2.0.0.1.jar
+END
+commons-configuration-1.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/245/branches/alpha/lib/commons-configuration-1.9.jar
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/245/branches/alpha/lib/commons-httpclient-3.1.jar
+END
+BrowserLauncher2-1_3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/761/branches/alpha/lib/BrowserLauncher2-1_3.jar
+END
+httpclient-4.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1201/branches/alpha/lib/httpclient-4.2.2.jar
+END
+groovy-xml-2.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1201/branches/alpha/lib/groovy-xml-2.0.4.jar
+END
+jgraph-5.13.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1198/branches/alpha/lib/jgraph-5.13.0.0.jar
+END
+jericho-html-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/245/branches/alpha/lib/jericho-html-3.1.jar
+END
+itextpdf-5.3.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/245/branches/alpha/lib/itextpdf-5.3.0.jar
+END
+xercesImpl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/245/branches/alpha/lib/xercesImpl.jar
+END
+xml-apis.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/245/branches/alpha/lib/xml-apis.jar
+END
+rsyntaxtextarea.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/441/branches/alpha/lib/rsyntaxtextarea.jar
+END
+jsoup-1.7.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/705/branches/alpha/lib/jsoup-1.7.2.jar
+END

@@ -1,0 +1,290 @@
+<ZAP>
+	<addon>ascanrulesAlpha</addon>
+	<addon_ascanrulesAlpha>
+		<name>Active scanner rules (alpha)</name>
+		<description>The alpha quality Active Scanner rules</description>
+		<author>ZAP Dev Team</author>
+		<version>9</version>
+		<file>ascanrulesAlpha-alpha-9.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/ascanrulesAlpha-alpha-9.zap/download</url>
+		<info>https://code.google.com/p/zap-extensions/wiki/AddOn_ascanrulesAlpha</info>
+		<size>2227798</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_ascanrulesAlpha>
+
+	<addon>birtreports</addon>
+	<addon_birtreports>
+		<name>birtreports</name>
+		<description>Alert reports using BIRT report API</description>
+		<author>Johanna Curiel And Rauf Butt</author>
+		<version>1</version>
+		<file>birtreports-alpha-1.zap</file>
+		<status>alpha</status>
+		<changes></changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/birtreports-alpha-1.zap/download</url>
+		<info></info>
+		<size>45569272</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_birtreports>
+
+	<addon>browserView</addon>
+	<addon_browserView>
+		<name>Browser View</name>
+		<description>Adds an option to render HTML responses like a browser</description>
+		<author>ZAP Dev Team</author>
+		<version>2</version>
+		<file>browserView-alpha-2.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/browserView-alpha-2.zap/download</url>
+		<info></info>
+		<size>7440317</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_browserView>
+
+	<addon>callgraph</addon>
+	<addon_callgraph>
+		<name>Call Graph</name>
+		<description>Allows the user to view a call graph of the selected resources</description>
+		<author>Colm O'Flaherty</author>
+		<version>2</version>
+		<file>callgraph-alpha-2.zap</file>
+		<status>alpha</status>
+		<changes>Now also graphs requests originating from the Ajax Spider</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/callgraph-alpha-2.zap/download</url>
+		<info></info>
+		<size>1154501</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_callgraph>
+
+	<addon>cmss</addon>
+	<addon_cmss>
+		<name>WAFP Extension</name>
+		<description>Fingerprint web applications</description>
+		<author>ZAP Dev Team</author>
+		<version>1.0</version>
+		<file>cmss-alpha-1.0.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/cmss-alpha-1.0.zap/download</url>
+		<info>http://code.google.com/p/zaproxy/</info>
+		<size>541175</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_cmss>
+
+	<addon>highlighter</addon>
+	<addon_highlighter>
+		<name>Highlighter</name>
+		<description>Allows you to highlight strings in the request and response tabs.</description>
+		<author>ZAP Dev Team</author>
+		<version>5</version>
+		<file>highlighter-alpha-5.zap</file>
+		<status>alpha</status>
+		<changes>Updated for ZAP 2.3.0</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/highlighter-alpha-5.zap/download</url>
+		<info></info>
+		<size>11832</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_highlighter>
+
+	<addon>httpsInfo</addon>
+	<addon_httpsInfo>
+		<name>HttpsInfo</name>
+		<description>Adds Https status information</description>
+		<author>ZAP Dev Team</author>
+		<version>4</version>
+		<file>httpsInfo-alpha-4.zap</file>
+		<status>alpha</status>
+		<changes>Updated add-on dir structure (Issue 1113).</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/httpsInfo-alpha-4.zap/download</url>
+		<info></info>
+		<size>48118</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_httpsInfo>
+
+	<addon>importurls</addon>
+	<addon_importurls>
+		<name>Import files containing URLs</name>
+		<description>Adds an option to import a file of URLs. The file must be plain text with one URL per line.</description>
+		<author>ZAP Dev Team</author>
+		<version>1</version>
+		<file>importurls-alpha-1.zap</file>
+		<status>alpha</status>
+		<changes>First version</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/importurls-alpha-1.zap/download</url>
+		<info></info>
+		<size>23367</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_importurls>
+
+	<addon>multiFuzz</addon>
+	<addon_multiFuzz>
+		<name>MultiFuzz</name>
+		<description>Provides multi-fuzzing capabilities and their HTTP implementations.</description>
+		<author>ZAP Dev Team</author>
+		<version>4</version>
+		<file>multiFuzz-alpha-4.zap</file>
+		<status>alpha</status>
+		<changes>Multiple bug fixes and result ex-/import</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/multiFuzz-alpha-4.zap/download</url>
+		<info></info>
+		<size>300226</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version>2.4.0</not-from-version>
+	</addon_multiFuzz>
+
+	<addon>pscanrulesAlpha</addon>
+	<addon_pscanrulesAlpha>
+		<name>Passive scanner rules (alpha)</name>
+		<description>The alpha quality Passive Scanner rules</description>
+		<author>ZAP Dev Team</author>
+		<version>5</version>
+		<file>pscanrulesAlpha-alpha-5.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/pscanrulesAlpha-alpha-5.zap/download</url>
+		<info></info>
+		<size>1012736</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_pscanrulesAlpha>
+
+	<addon>saml</addon>
+	<addon_saml>
+		<name>SAML Extension</name>
+		<description>Detect, Show, Edit, Fuzz SAML requests</description>
+		<author>ZAP Dev Team</author>
+		<version>2</version>
+		<file>saml-alpha-2.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/saml-alpha-2.zap/download</url>
+		<info>http://code.google.com/p/zaproxy/</info>
+		<size>984189</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_saml>
+
+	<addon>simpleExample</addon>
+	<addon_simpleExample>
+		<name>Simple Example</name>
+		<description>A simple extension example.</description>
+		<author>ZAP Dev Team</author>
+		<version>1</version>
+		<file>simpleExample-alpha-1.zap</file>
+		<status>alpha</status>
+		<changes>First version</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/simpleExample-alpha-1.zap/download</url>
+		<info></info>
+		<size>14550</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_simpleExample>
+
+	<addon>sniTerminator</addon>
+	<addon_sniTerminator>
+		<name>SNI Terminator</name>
+		<description>Transparent HTTP proxying - requires Java 8!</description>
+		<author>ZAP Dev Team</author>
+		<version>2</version>
+		<file>sniTerminator-alpha-2.zap</file>
+		<status>alpha</status>
+		<changes>Call start explicitly as its no longer called from the constructor</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/sniTerminator-alpha-2.zap/download</url>
+		<info>http://www.computerist.org/blog/2014/07/23/Transparent-HTTPS-proxying-with-ZAP/</info>
+		<size>45883</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_sniTerminator>
+
+	<addon>soap</addon>
+	<addon_soap>
+		<name>Imports and scans WSDL files containing SOAP endpoints.</name>
+		<description>Adds an option to import WSDL file with SOAP operations. The file must be a well formed WSDL file.</description>
+		<author>Alberto (albertov91)</author>
+		<version>1</version>
+		<file>soap-alpha-1.zap</file>
+		<status>alpha</status>
+		<changes>First version</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/soap-alpha-1.zap/download</url>
+		<info></info>
+		<size>7231212</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_soap>
+
+	<addon>sse</addon>
+	<addon_sse>
+		<name>Server-Sent Events</name>
+		<description>Allows you to view Server-Sent Events (SSE) communication.</description>
+		<author>ZAP Dev Team</author>
+		<version>7</version>
+		<file>sse-alpha-7.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/sse-alpha-7.zap/download</url>
+		<info></info>
+		<size>306915</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_sse>
+
+	<addon>wappalyzer</addon>
+	<addon_wappalyzer>
+		<name>Technology detection using Wappalyzer</name>
+		<description>Technology detection using Wappalyzer: wappalyzer.com</description>
+		<author>ZAP Dev Team</author>
+		<version>3</version>
+		<file>wappalyzer-alpha-3.zap</file>
+		<status>alpha</status>
+		<changes>${zapaddon.changes}</changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/wappalyzer-alpha-3.zap/download</url>
+		<info></info>
+		<size>631743</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_wappalyzer>
+
+	<addon>retire</addon>
+	<addon_retire>
+		<name>Vulnerable JavaScript libraries detection</name>
+		<description>Detects use of insecure versions of JavaScript libraries using database of Retire.js</description>
+		<author>Nikita Mundhada</author>
+		<version>3</version>
+		<file>retire-alpha-3.zap</file>
+		<status>alpha</status>
+		<changes></changes>
+		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/retire-alpha-3.zap/download</url>
+		<info></info>
+		<size>36380</size>
+		<date>2014-11-24</date>
+		<not-before-version>2.3.0</not-before-version>
+		<not-from-version></not-from-version>
+	</addon_retire>
+</ZAP>

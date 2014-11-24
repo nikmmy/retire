@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/filter
+END
+EventStreamViewFilterDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/filter/EventStreamViewFilterDialog.java
+END
+EventStreamViewFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/filter/EventStreamViewFilter.java
+END

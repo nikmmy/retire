@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/451/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/httppanel/views
+END
+EventStreamPanelTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/276/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/httppanel/views/EventStreamPanelTextView.java
+END
+EventStreamSyntaxHighlightTextView.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/451/branches/alpha/src/org/zaproxy/zap/extension/sse/ui/httppanel/views/EventStreamSyntaxHighlightTextView.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/browserView
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1424/branches/alpha/src/org/zaproxy/zap/extension/browserView/ZapAddOn.xml
+END
+ExtensionHttpPanelBrowserView.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/962/branches/alpha/src/org/zaproxy/zap/extension/browserView/ExtensionHttpPanelBrowserView.java
+END
+BrowserPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/962/branches/alpha/src/org/zaproxy/zap/extension/browserView/BrowserPanel.java
+END
+ResponseBrowserView.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/962/branches/alpha/src/org/zaproxy/zap/extension/browserView/ResponseBrowserView.java
+END

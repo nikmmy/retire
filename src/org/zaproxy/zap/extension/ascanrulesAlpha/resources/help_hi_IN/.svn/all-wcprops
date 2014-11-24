@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/resources/help_hi_IN
+END
+toc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1164/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/resources/help_hi_IN/toc.xml
+END
+helpset_hi_IN.hs
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1164/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/resources/help_hi_IN/helpset_hi_IN.hs
+END
+index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1164/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/resources/help_hi_IN/index.xml
+END
+map.jhm
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1164/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/resources/help_hi_IN/map.jhm
+END

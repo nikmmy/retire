@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1319/branches/alpha/src/org/zaproxy/zap/extension/soap/lib
+END
+httpcore-4.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/httpcore-4.2.2.jar
+END
+asm-analysis-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/asm-analysis-4.0.jar
+END
+asm-tree-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/asm-tree-4.0.jar
+END
+groovy-2.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/groovy-2.0.4.jar
+END
+commons-codec-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/commons-codec-1.6.jar
+END
+asm-util-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/asm-util-4.0.jar
+END
+soa-model-core-1.4.1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/soa-model-core-1.4.1.4.jar
+END
+asm-commons-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/asm-commons-4.0.jar
+END
+slf4j-api-1.7.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/slf4j-api-1.7.2.jar
+END
+httpclient-4.2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/httpclient-4.2.2.jar
+END
+commons-cli-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/commons-cli-1.2.jar
+END
+soa-model-distribution-1.4.1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/soa-model-distribution-1.4.1.4.jar
+END
+asm-4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/asm-4.0.jar
+END
+antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/antlr-2.7.7.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/commons-logging-1.1.1.jar
+END
+groovy-xml-2.0.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1276/branches/alpha/src/org/zaproxy/zap/extension/soap/lib/groovy-xml-2.0.4.jar
+END

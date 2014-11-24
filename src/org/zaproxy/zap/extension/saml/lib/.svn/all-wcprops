@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/643/branches/alpha/src/org/zaproxy/zap/extension/saml/lib
+END
+commons-httpclient-3.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/643/branches/alpha/src/org/zaproxy/zap/extension/saml/lib/commons-httpclient-3.1.jar
+END
+joda-time-2.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/643/branches/alpha/src/org/zaproxy/zap/extension/saml/lib/joda-time-2.2.jar
+END

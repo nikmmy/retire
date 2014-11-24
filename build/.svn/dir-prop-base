@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 54
+build
+itextpdf
+zap-exts
+jar
+dist
+
+build-alb.xml
+
+temp
+
+END

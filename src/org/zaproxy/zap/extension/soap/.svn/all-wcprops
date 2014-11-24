@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/soap
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1305/branches/alpha/src/org/zaproxy/zap/extension/soap/ZapAddOn.xml
+END
+SOAPActionSpoofingActiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1318/branches/alpha/src/org/zaproxy/zap/extension/soap/SOAPActionSpoofingActiveScanner.java
+END
+ImportWSDL.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1323/branches/alpha/src/org/zaproxy/zap/extension/soap/ImportWSDL.java
+END
+WSDLSpider.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1324/branches/alpha/src/org/zaproxy/zap/extension/soap/WSDLSpider.java
+END
+ExtensionImportWSDL.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1324/branches/alpha/src/org/zaproxy/zap/extension/soap/ExtensionImportWSDL.java
+END
+ImportFromUrlDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1323/branches/alpha/src/org/zaproxy/zap/extension/soap/ImportFromUrlDialog.java
+END
+WSDLFilePassiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1323/branches/alpha/src/org/zaproxy/zap/extension/soap/WSDLFilePassiveScanner.java
+END

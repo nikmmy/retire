@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/resources/pluginEnum
+END
+wp_themes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/resources/pluginEnum/wp_themes.txt
+END
+joomla_themes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/resources/pluginEnum/joomla_themes.txt
+END
+joomla_plugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/resources/pluginEnum/joomla_plugins.txt
+END
+wp_plugins.txt
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1076/branches/alpha/src/org/zaproxy/zap/extension/cmss/resources/pluginEnum/wp_plugins.txt
+END

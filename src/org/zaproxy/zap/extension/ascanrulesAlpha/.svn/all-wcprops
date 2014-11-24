@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1450/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/ZapAddOn.xml
+END
+GitIndexEntryCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/955/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/GitIndexEntryCache.java
+END
+SourceCodeDisclosureFileInclusion.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1176/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/SourceCodeDisclosureFileInclusion.java
+END
+BackupFileDisclosure.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1055/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/BackupFileDisclosure.java
+END
+SlackerCookieDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1333/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/SlackerCookieDetector.java
+END
+ExtensionAscanRulesAlpha.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1055/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/ExtensionAscanRulesAlpha.java
+END
+InsecureHTTPMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1353/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/InsecureHTTPMethod.java
+END
+HeartBleedActiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1189/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/HeartBleedActiveScanner.java
+END
+SourceCodeDisclosureCVE20121823.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1410/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/SourceCodeDisclosureCVE20121823.java
+END
+SourceCodeDisclosureWEBINF.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1369/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/SourceCodeDisclosureWEBINF.java
+END
+GitMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1128/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/GitMetadata.java
+END
+Hirshberg.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/874/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/Hirshberg.java
+END
+NotV1GitPackIndexFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/955/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/NotV1GitPackIndexFileException.java
+END
+SourceCodeDisclosureGit.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1411/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/SourceCodeDisclosureGit.java
+END
+ExampleSimpleActiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1200/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/ExampleSimpleActiveScanner.java
+END
+ChallengeCallbackPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/916/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/ChallengeCallbackPlugin.java
+END
+MessageCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/955/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/MessageCache.java
+END
+CrossDomainScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1427/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/CrossDomainScanner.java
+END
+HttpsAsHttpScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1450/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/HttpsAsHttpScanner.java
+END
+SourceCodeDisclosureSVN.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1412/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/SourceCodeDisclosureSVN.java
+END
+RemoteCodeExecutionCVE20121823.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1420/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/RemoteCodeExecutionCVE20121823.java
+END
+ChallengeCallbackAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/922/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/ChallengeCallbackAPI.java
+END
+ExampleFileActiveScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1200/branches/alpha/src/org/zaproxy/zap/extension/ascanrulesAlpha/ExampleFileActiveScanner.java
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/importurls
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1187/branches/alpha/src/org/zaproxy/zap/extension/importurls/ZapAddOn.xml
+END
+ExtensionImportUrls.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1120/branches/alpha/src/org/zaproxy/zap/extension/importurls/ExtensionImportUrls.java
+END

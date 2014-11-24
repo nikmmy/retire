@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1467/branches/alpha/src/org/zaproxy/zap/extension/httpsInfo
+END
+ZapAddOn.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1187/branches/alpha/src/org/zaproxy/zap/extension/httpsInfo/ZapAddOn.xml
+END
+SSLServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/729/branches/alpha/src/org/zaproxy/zap/extension/httpsInfo/SSLServer.java
+END
+RightClickMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1064/branches/alpha/src/org/zaproxy/zap/extension/httpsInfo/RightClickMenu.java
+END
+MDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1064/branches/alpha/src/org/zaproxy/zap/extension/httpsInfo/MDialog.java
+END
+MenuEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1064/branches/alpha/src/org/zaproxy/zap/extension/httpsInfo/MenuEntry.java
+END
