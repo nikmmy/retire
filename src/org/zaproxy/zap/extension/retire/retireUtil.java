@@ -67,7 +67,7 @@ public class retireUtil {
 			System.out.println(m.group(1));
 			return m.group(1);
 		}
-		return null;
+		return "";
 	}
 	
 	

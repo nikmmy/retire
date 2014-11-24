@@ -48,26 +48,29 @@ public class RetirePassiveScanner extends PluginPassiveScanner {
 	String uri = msg.getRequestHeader().getURI().toString();
      //Scan the HTTP response
 	if(!msg.getResponseHeader().isImage() && !uri.endsWith(".css")){
-      HashSet<String> results = RetireExtension.scanJS(msg);
-      System.out.println("Result:" + results);
-      
-      if(results.isEmpty()){
+      Result r = RetireExtension.scanJS(msg);
+      if(r==null){
     	  System.out.println("No vulnerabilities");
       }else{
+    	   System.out.println("Result:" + r.filename + r.version + r.info);
+    	   StringBuffer formattedInfo = new StringBuffer();
+    	   for(String info: r.info)
+    		   formattedInfo.append("* " + info+ "\n"); 
     	   Alert alert = new Alert(getPluginId(), Alert.RISK_MEDIUM, Alert.WARNING,
                     getName());
                     alert.setDetail(
-                            "A vulnerability description",
+                            "Currently used version of " + r.filename + ".js i.e. " +
+                             r.version + " is vulnerable.",
                             uri,
                             "",     // Param
-                            msg.getResponseBody().toString(), // Attack
-                            "", // Other info
-                            "A vulnerability solution",
-                            results.toString(),
-                           "", // Evidence
-                           0,  // CWE Id
-                           0,  // WASC Id
-                           msg);
+                            "", // Attack
+                            formattedInfo.toString(), // Other info
+                            "Please upgrade to the latest version of " + r.filename + ".js.",
+                            "",
+                            "", // Evidence
+                            0,  // CWE Id
+                            0,  // WASC Id
+                            msg);
      
      
           parent.raiseAlert(id, alert);

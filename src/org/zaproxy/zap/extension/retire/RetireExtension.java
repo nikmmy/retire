@@ -17,6 +17,7 @@ import org.parosproxy.paros.network.HttpMessage;
 
 public class RetireExtension extends ExtensionAdaptor {
 	 private static final String RESOURCE = "/org/zaproxy/zap/extension/retire/resources";
+	 //private static final String RESOURCE = "/home/nikita/Downloads/workspace-zap/zap-extensions-alpha/src/org/zaproxy/zap/extension/retire/resources";
 	 private static final JSONObject json = initialize();
 	
 	@Override
@@ -50,12 +51,12 @@ public class RetireExtension extends ExtensionAdaptor {
 	 * 4)Matching vulnerability is found in database for JS file hash, if YES return HashSet of related info .
 	 * 5)Return empty HashSet.
 	 */
-	public static HashSet<String> scanJS(HttpMessage msg){
+	public static Result scanJS(HttpMessage msg){
 		
 		URI uri = msg.getRequestHeader().getURI();
 		String fileName =  retireUtil.getFileName(uri);
 		String content = msg.getResponseBody().toString();
-		HashSet<String> result = new HashSet<String>();
+		Result r;
 		
 		//check if in dont check section
 		HashMap<String, String> msginfo = new HashMap<String, String>();
@@ -64,28 +65,28 @@ public class RetireExtension extends ExtensionAdaptor {
 		msginfo.put("filecontent", content);
 		
 		if(dontcheck(msginfo)){
-		  return result;
+		  return null;
 		}
 		
 		
-		result = scanFileURI(uri.toString());
-		if(!result.isEmpty())
-			return result;
+		r = scanFileURI(uri.toString());
+		if(r!=null)
+			return r;
 		
 		if(fileName!=null){
-			result = scanFileName(fileName);
+			r = scanFileName(fileName);
 		}
-		if(!result.isEmpty())
-			return result;
+		if(r!=null)
+			return r;
 		
-		result = scanFileContent(content);
-		if(!result.isEmpty())
-			return result;
+		r = scanFileContent(content);
+		if(r!=null)
+			return r;
 		
 		String hash =  retireUtil.getHash(msg.getResponseBody().toString());
-		result = scanHash(hash);
+		r = scanHash(hash);
 		
-		return result;
+		return r;
 	}
 
 	/*
@@ -95,8 +96,8 @@ public class RetireExtension extends ExtensionAdaptor {
 	 * ELSE an empty HashSet is returned.
 	 */
 		
-	private static HashSet<String> scanHash(String hash) {
-		  HashSet<String> result = new HashSet<String>();
+	private static Result scanHash(String hash) {
+		  HashSet<String> results = new HashSet<String>();
 		  for (Object jsfile: json.entrySet()) {
 			 Map.Entry<String, JSONObject> mjsFile = (Map.Entry<String, JSONObject>)jsfile;
 			 JSONObject extractors =  (JSONObject)mjsFile.getValue().get("extractors");
@@ -110,27 +111,27 @@ public class RetireExtension extends ExtensionAdaptor {
 				     JSONArray vulnerabilities = (JSONArray)mjsFile.getValue().get("vulnerabilities");
 				     if(hash.equalsIgnoreCase(hashEntry.getKey())){
 				    	 System.out.println("Match found for" + mjsFile.getKey());
-				    	 result = isVersionVulnerable(vulnerabilities, hashEntry.getValue());
-				    	 return result;
+				    	 results = isVersionVulnerable(vulnerabilities, hashEntry.getValue());
+				    	 return new Result(mjsFile.getKey(),hashEntry.getValue(),results);
 				      } 
 			     }
 			 }
 	      }	
-		  return result;
+		  return null;
 	}
 
 
-	private static HashSet<String> scanFileContent(String content) {
+	private static Result scanFileContent(String content) {
 		return scan("filecontent", content);
 	}
 
 
 
-	public static HashSet<String> scanFileName(String filename){
+	public static Result  scanFileName(String filename){
 		return scan("filename", filename);
 	}
 
-	static HashSet<String> scanFileURI(String fileURI){
+	static Result scanFileURI(String fileURI){
 		return scan("uri", fileURI);
 	}
 
@@ -140,7 +141,7 @@ public class RetireExtension extends ExtensionAdaptor {
 	 * FileName OR FileURL OR FileContent
 	 */
 		
-	public static HashSet<String> scan(String criterion, String inputFile){
+	public static Result scan(String criterion, String inputFile){
 		 HashSet<String> results = new HashSet<String>();
 		
 		 //reading each entry for JS libraries in repo
@@ -166,14 +167,21 @@ public class RetireExtension extends ExtensionAdaptor {
 		                	//now try to detect if this version is vulnerable
 		                	JSONArray vulnerabilities = (JSONArray)mjsFile.getValue().get("vulnerabilities");
 		                	results  = isVersionVulnerable(vulnerabilities, inpversion);
+		                	if(!results.isEmpty()){
+		                		return new Result(mjsFile.getKey(), inpversion, results);
+		                	}
 	                    }
 	                } 	
 	            }
 			 }
 	   } 
-	 return results;
+	 return null;
    }
 
+ /*
+  * This function informs whether to scan a JS library at all. There are certain
+  * libraries we know for sure are secure, so we just ignore those.
+  */
   private static boolean dontcheck(HashMap<String, String> msginfo) {
 		// TODO Auto-generated method stub
 	    JSONArray matches = null;
@@ -250,13 +258,27 @@ public class RetireExtension extends ExtensionAdaptor {
     * Testing stub
     **/
    public static void main(String[] args){
-		HashMap<String, String> msginfo = new HashMap<String, String>();
+		/*HashMap<String, String> msginfo = new HashMap<String, String>();
 		msginfo.put("uri","http://wwwdd.google-analytics.com/ga.js");
 		msginfo.put("filename", "nikita");
 		msginfo.put("filecontent", "nikita");
-
-		System.out.println(dontcheck(msginfo));
+   */
+		//System.out.println(dontcheck(msginfo));
 		//System.out.println("RESULT");
-		//System.out.println(scanFileURI("http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"));
+	   Result r = scanFileURI("http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angulassr.min.js");
+		System.out.println(r.filename + r.version + r.info);
+	}
+}
+
+
+class Result{
+	HashSet<String> info = new HashSet<String>();
+	String version;
+	String filename;
+	
+	Result(String filename, String version, HashSet<String> info){
+		this.filename = filename;
+		this.version = version;
+		this.info = info;
 	}
 }
