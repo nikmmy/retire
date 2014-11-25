@@ -1,10 +1,10 @@
 package org.zaproxy.zap.extension.retire;
 
 import org.apache.commons.httpclient.URI;
+
 import java.io.IOException;
 import org.json.simple.*;
 import org.json.simple.parser.JSONParser;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -17,12 +17,10 @@ import org.parosproxy.paros.network.HttpMessage;
 
 public class RetireExtension extends ExtensionAdaptor {
 	 private static final String RESOURCE = "/org/zaproxy/zap/extension/retire/resources";
-	 //private static final String RESOURCE = "/home/nikita/Downloads/workspace-zap/zap-extensions-alpha/src/org/zaproxy/zap/extension/retire/resources";
 	 private static final JSONObject json = initialize();
 	
 	@Override
 	public String getAuthor() {
-		// TODO Auto-generated method stub
 		return "Nikita";
 	}
 	
@@ -32,16 +30,15 @@ public class RetireExtension extends ExtensionAdaptor {
 	public static JSONObject initialize(){
 	  JSONParser parser = new JSONParser();
 	  try{
-		  String repo = retireUtil.readFile(RESOURCE + "/jsrepository.json"); 
-		  repo = repo.replace("§§version§§", "[0-9][0-9.a-z_\\\\\\\\-]+");
-		  Object JsonRepo = parser.parse(repo);
-		  return (JSONObject)(JsonRepo);
-		 }catch(IOException e){
-		  System.out.println(e.getMessage());
-	   }catch (Exception e) {
-		e.printStackTrace();
-	  }
-	  return null;
+		   String path = RESOURCE + "/jsrepository.json";
+		   String repo = retireUtil.getStringResource(path); 
+		   repo = repo.replace("§§version§§", "[0-9][0-9.a-z_\\\\\\\\-]+");
+		   Object JsonRepo = parser.parse(repo);
+		   return (JSONObject)(JsonRepo);
+		  
+		 }catch (Exception e) {
+		    return null;
+	     }
    }
 	/*
 	 * This is the top level function called from the scanner. It first checks if:
@@ -107,10 +104,8 @@ public class RetireExtension extends ExtensionAdaptor {
 			 if(hashes != null){
 				 for (Object hashi: hashes.entrySet()) {
 					 Map.Entry<String, String> hashEntry  = (Map.Entry<String, String>)hashi;
-				     System.out.println(hashEntry.getKey() + ":" +  hashEntry.getValue());
 				     JSONArray vulnerabilities = (JSONArray)mjsFile.getValue().get("vulnerabilities");
 				     if(hash.equalsIgnoreCase(hashEntry.getKey())){
-				    	 System.out.println("Match found for" + mjsFile.getKey());
 				    	 results = isVersionVulnerable(vulnerabilities, hashEntry.getValue());
 				    	 return new Result(mjsFile.getKey(),hashEntry.getValue(),results);
 				      } 
@@ -162,7 +157,6 @@ public class RetireExtension extends ExtensionAdaptor {
 		                if(m.find()){
 		                	//retrieve file version
 		                	String inpversion =  m.group(1);
-		                	System.out.println("Current version is" + inpversion);
 		                	
 		                	//now try to detect if this version is vulnerable
 		                	JSONArray vulnerabilities = (JSONArray)mjsFile.getValue().get("vulnerabilities");
@@ -225,48 +219,36 @@ public class RetireExtension extends ExtensionAdaptor {
 			    JSONObject vnext= viterator.next();
 			       
             if(vnext.containsKey("atOrAbove") && vnext.containsKey("below")){
-            	System.out.println("Vulnerability at or above" + (String)vnext.get("atOrAbove") + "and below" + (String)vnext.get("below"));
             	if( retireUtil.isAtOrAbove(inpversion, (String)vnext.get("atOrAbove")) &&
             			! retireUtil.isAtOrAbove(inpversion, (String)vnext.get("below"))){
-            		isVulnerable = true;
-            		
+            		isVulnerable = true;	
             	} 	
-             }else if(vnext.containsKey("below")){
-            	System.out.println("Vulnerability below" + (String)vnext.get("below"));
+            }else if(vnext.containsKey("below")){
             	if(! retireUtil.isAtOrAbove(inpversion, (String)vnext.get("below"))){
             		isVulnerable = true;
          	     } 
-            } 
-           else if(vnext.containsKey("atOrAbove")){
-        	   System.out.println("Vulnerability above" + (String)vnext.get("atOrAbove"));
+            }else if(vnext.containsKey("atOrAbove")){
              	if( retireUtil.isAtOrAbove(inpversion, (String)vnext.get("atOrAbove"))){
            		     isVulnerable = true; 
              	} 
-           }
-           if(isVulnerable){
-        	   System.out.println("Current version is vulnerable.");
+            }
+            if(isVulnerable){
      		   JSONArray info = (JSONArray)vnext.get("info");
      		   Iterator<String> iiterator = info.iterator();
      		   while(iiterator.hasNext())
      			  results.add((String)iiterator.next()); 	 
-         }         
-	  } 
-      return results;
+            }         
+	   } 
+     return results;
   }
 	
    /*
     * Testing stub
     **/
    public static void main(String[] args){
-		/*HashMap<String, String> msginfo = new HashMap<String, String>();
-		msginfo.put("uri","http://wwwdd.google-analytics.com/ga.js");
-		msginfo.put("filename", "nikita");
-		msginfo.put("filecontent", "nikita");
-   */
-		//System.out.println(dontcheck(msginfo));
-		//System.out.println("RESULT");
-	   Result r = scanFileURI("http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angulassr.min.js");
-		System.out.println(r.filename + r.version + r.info);
+	   Result r = scanFileURI("http://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js");
+		if(r!=null)
+			System.out.println(r.filename + r.version + r.info);
 	}
 }
 

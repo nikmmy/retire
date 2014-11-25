@@ -65,5 +65,6 @@
 	<classpathentry kind="lib" path="lib/commons-codec-1.6.jar"/>
 	<classpathentry kind="lib" path="lib/ZAPSNITerminator.jar"/>
 	<classpathentry kind="lib" path="lib/commons-csv-1.0-20140724.224535-299.jar"/>
+	<classpathentry kind="lib" path="/home/nikita/jexcelapi/jxl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -18,6 +18,7 @@
  * limitations under the License.
  */
 package org.zaproxy.zap.extension.retire;
+
 import net.htmlparser.jericho.Source;
 
 import org.apache.log4j.Logger;
@@ -25,17 +26,16 @@ import org.parosproxy.paros.core.scanner.Alert;
 import org.parosproxy.paros.network.HttpMessage;
 import org.zaproxy.zap.extension.pscan.PassiveScanThread;
 import org.zaproxy.zap.extension.pscan.PluginPassiveScanner;
-import java.util.HashSet;
 
 
 public class RetirePassiveScanner extends PluginPassiveScanner {
 	 private PassiveScanThread parent = null;
-	 Logger logger;
+	 private static final Logger logger = Logger.getLogger(RetirePassiveScanner.class);
+     
 	 
 	@Override
 	public String getName() {
-		// TODO Auto-generated method stub
-		return "RetireJS scanner";
+		return "Component with known vulnerabilities";
 	}
 
 	@Override
@@ -45,37 +45,41 @@ public class RetirePassiveScanner extends PluginPassiveScanner {
 
 	@Override
 	public void scanHttpResponseReceive(HttpMessage msg, int id, Source source) {
-	String uri = msg.getRequestHeader().getURI().toString();
-     //Scan the HTTP response
-	if(!msg.getResponseHeader().isImage() && !uri.endsWith(".css")){
-      Result r = RetireExtension.scanJS(msg);
-      if(r==null){
-    	  System.out.println("No vulnerabilities");
-      }else{
-    	   System.out.println("Result:" + r.filename + r.version + r.info);
-    	   StringBuffer formattedInfo = new StringBuffer();
-    	   for(String info: r.info)
-    		   formattedInfo.append("* " + info+ "\n"); 
-    	   Alert alert = new Alert(getPluginId(), Alert.RISK_MEDIUM, Alert.WARNING,
-                    getName());
-                    alert.setDetail(
-                            "Currently used version of " + r.filename + ".js i.e. " +
-                             r.version + " is vulnerable.",
-                            uri,
-                            "",     // Param
-                            "", // Attack
-                            formattedInfo.toString(), // Other info
-                            "Please upgrade to the latest version of " + r.filename + ".js.",
-                            "",
-                            "", // Evidence
-                            0,  // CWE Id
-                            0,  // WASC Id
-                            msg);
+		String uri = msg.getRequestHeader().getURI().toString();
+		//Scan the HTTP response
+		if(!msg.getResponseHeader().isImage() && !uri.endsWith(".css")){
+			Result r = RetireExtension.scanJS(msg);
+			if(r==null){
+				if(logger.isDebugEnabled()) {
+					logger.debug("\tNo vulnerabilities found in record " + id + " with URL " +
+            		  		uri);
+				}
+			}else{
+				if(logger.isDebugEnabled()) {
+					logger.debug("\tVulnerabilities found in record " + id + " with URL " +
+            		  		uri + " " + r.filename + " " + r.version + " " + r.info);
+				}
+				StringBuffer formattedInfo = new StringBuffer();
+				for(String info: r.info)
+					formattedInfo.append("* " + info+ "\n"); 
+				Alert alert = new Alert(getPluginId(), Alert.RISK_MEDIUM, Alert.WARNING,
+										getName());
+                alert.setDetail("Currently used version of " + r.filename + ".js i.e. " +
+                             	r.version + " is vulnerable.",
+                             	uri,
+                             	"",  // Param
+                             	"", // Attack
+                             	formattedInfo.toString(), // Other info
+                             	"Please upgrade to the latest version of " + r.filename + ".js.",
+                             	"",
+                             	"", // Evidence
+                             	829,// CWE Id
+                             	0,  // WASC Id
+                             	msg);
      
-     
-          parent.raiseAlert(id, alert);
-     }		
-	}
+                parent.raiseAlert(id, alert);
+			}		
+	   }
   }
 
 	@Override

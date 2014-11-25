@@ -1,9 +1,8 @@
 package org.zaproxy.zap.extension.retire;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Formatter;
@@ -72,13 +71,31 @@ public class retireUtil {
 	
 	
 	 /*
-	  * This utility function reads a file and returns its contents
+	  * This utility function reads a file as a stream and returns its contents
 	  * as a string.
-	  */
-	static String readFile(String path)  throws IOException {
-		byte[] encoded = Files.readAllBytes(Paths.get(path));
-		return new String(encoded);
-	}
+	  */	
+	static String getStringResource(String resourceName) throws IOException {
+            InputStream in = null;
+            StringBuilder sb = new StringBuilder();
+            try{
+                    in = RetireExtension.class.getResourceAsStream(resourceName);
+                    int numRead=0;
+                    byte[] buf = new byte[1024];
+                    while((numRead = in.read(buf)) != -1){
+                    	sb.append(new String(buf, 0, numRead));
+                    }
+                   return sb.toString();
+            	}finally {
+                    if(in != null){
+                        try{
+                             in.close();
+                            }catch (IOException e) {
+ 
+                            }
+                    }
+               }
+    }
+
 		
 	/*
 	 * This utility function determines if 

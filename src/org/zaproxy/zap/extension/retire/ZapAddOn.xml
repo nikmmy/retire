@@ -1,13 +1,13 @@
 <zapaddon>
-	<name>Vulnerable JavaScript libraries detection</name>
-	<version>3</version>
+	<name>Vulnerable JS libraries detection</name>
+	<version>1</version>
 	<description>Detects use of insecure versions of JavaScript libraries using database of Retire.js</description>
 	<author>Nikita Mundhada</author>
 	<url></url>
 	<changes></changes>
 	<dependson/>
 	<extensions>
-	    <extension>org.zaproxy.zap.extension.retire.ExtensionRetire</extension>
+	    <extension>org.zaproxy.zap.extension.retire.RetireExtension</extension>
 	</extensions>
 	<ascanrules/>
 	<pscanrules>
