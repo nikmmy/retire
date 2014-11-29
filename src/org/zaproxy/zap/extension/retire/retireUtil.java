@@ -54,19 +54,20 @@ public class retireUtil {
 	 * This utility function retrieves the JS file name from passed URI.
 	 */
 	static String getFileName(URI uri) {
-		String pathname = "";
 		try {
-			pathname = uri.getPath();
+			String pathname = uri.getPath();
+			if(pathname!=null){
+				Pattern p = Pattern.compile("\\/([^\\/?#]+)$"); 
+				Matcher  m = p.matcher(pathname);
+				if(m.find()){
+					System.out.println(m.group(1));
+					return m.group(1);
+				}
+			}
 		} catch (URIException e) {
 			e.printStackTrace();
 		}
-		Pattern p = Pattern.compile("\\/([^\\/?#]+)$"); 
-		Matcher  m = p.matcher(pathname);
-		if(m.find()){
-			System.out.println(m.group(1));
-			return m.group(1);
-		}
-		return "";
+		return null;
 	}
 	
 	

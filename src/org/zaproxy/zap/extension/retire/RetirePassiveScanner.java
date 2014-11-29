@@ -56,8 +56,9 @@ public class RetirePassiveScanner extends PluginPassiveScanner {
 				}
 			}else{
 				if(logger.isDebugEnabled()) {
-					logger.debug("\tVulnerabilities found in record " + id + " with URL " +
-            		  		uri + " " + r.filename + " " + r.version + " " + r.info);
+					logger.debug("\tVulnerabilities found in record " + id + " with URL:" +
+            		  		uri + " ,name:" + ((r.filename==null)? "" : r.filename) + " and version:" +
+							r.version + " ,more info at:" + r.info);
 				}
 				StringBuffer formattedInfo = new StringBuffer();
 				for(String info: r.info)

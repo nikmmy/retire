@@ -58,7 +58,8 @@ public class RetireExtension extends ExtensionAdaptor {
 		//check if in dont check section
 		HashMap<String, String> msginfo = new HashMap<String, String>();
 		msginfo.put("uri", uri.toString());
-		msginfo.put("filename", fileName.toString());
+		if(fileName!=null)
+			msginfo.put("filename", fileName.toString());
 		msginfo.put("filecontent", content);
 		
 		if(dontcheck(msginfo)){
