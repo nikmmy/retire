@@ -31,25 +31,25 @@ import org.zaproxy.zap.extension.pscan.PluginPassiveScanner;
 public class RetirePassiveScanner extends PluginPassiveScanner {
 	 private PassiveScanThread parent = null;
 	 private static final Logger logger = Logger.getLogger(RetirePassiveScanner.class);
-     
-	 
+
+
 	@Override
 	public String getName() {
 		return "Component with known vulnerabilities";
 	}
 
 	@Override
-	public void scanHttpRequestSend(HttpMessage arg0, int arg1) {
-		// do nothing	
+	public void scanHttpRequestSend(final HttpMessage arg0, final int arg1) {
+		// do nothing
 	}
 
 	@Override
-	public void scanHttpResponseReceive(HttpMessage msg, int id, Source source) {
+	public void scanHttpResponseReceive(final HttpMessage msg, final int id, final Source source) {
 		String uri = msg.getRequestHeader().getURI().toString();
 		//Scan the HTTP response
 		if(!msg.getResponseHeader().isImage() && !uri.endsWith(".css")){
 			Result r = RetireExtension.scanJS(msg);
-			if(r==null){
+			if(r == null){
 				if(logger.isDebugEnabled()) {
 					logger.debug("\tNo vulnerabilities found in record " + id + " with URL " +
             		  		uri);
@@ -61,8 +61,9 @@ public class RetirePassiveScanner extends PluginPassiveScanner {
 							r.version + " ,more info at:" + r.info);
 				}
 				StringBuffer formattedInfo = new StringBuffer();
-				for(String info: r.info)
-					formattedInfo.append("* " + info+ "\n"); 
+				for(String info: r.info) {
+					formattedInfo.append("* " + info+ "\n");
+				}
 				Alert alert = new Alert(getPluginId(), Alert.RISK_MEDIUM, Alert.WARNING,
 										getName());
                 alert.setDetail("Currently used version of " + r.filename + ".js i.e. " +
@@ -77,15 +78,14 @@ public class RetirePassiveScanner extends PluginPassiveScanner {
                              	829,// CWE Id
                              	0,  // WASC Id
                              	msg);
-     
+
                 parent.raiseAlert(id, alert);
-			}		
+			}
 	   }
   }
 
 	@Override
-	public void setParent(PassiveScanThread parent) {
-		this.parent = parent;	
+	public void setParent(final PassiveScanThread parent) {
+		this.parent = parent;
 	}
 }
-	

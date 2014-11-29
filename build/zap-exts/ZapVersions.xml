@@ -11,7 +11,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/ascanrulesAlpha-alpha-9.zap/download</url>
 		<info>https://code.google.com/p/zap-extensions/wiki/AddOn_ascanrulesAlpha</info>
 		<size>2227798</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_ascanrulesAlpha>
@@ -28,7 +28,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/birtreports-alpha-1.zap/download</url>
 		<info></info>
 		<size>45569272</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_birtreports>
@@ -45,7 +45,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/browserView-alpha-2.zap/download</url>
 		<info></info>
 		<size>7440317</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_browserView>
@@ -62,7 +62,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/callgraph-alpha-2.zap/download</url>
 		<info></info>
 		<size>1154501</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_callgraph>
@@ -79,7 +79,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/cmss-alpha-1.0.zap/download</url>
 		<info>http://code.google.com/p/zaproxy/</info>
 		<size>541175</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_cmss>
@@ -96,7 +96,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/highlighter-alpha-5.zap/download</url>
 		<info></info>
 		<size>11832</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_highlighter>
@@ -113,7 +113,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/httpsInfo-alpha-4.zap/download</url>
 		<info></info>
 		<size>48118</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_httpsInfo>
@@ -130,7 +130,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/importurls-alpha-1.zap/download</url>
 		<info></info>
 		<size>23367</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_importurls>
@@ -147,7 +147,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/multiFuzz-alpha-4.zap/download</url>
 		<info></info>
 		<size>300226</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version>2.4.0</not-from-version>
 	</addon_multiFuzz>
@@ -164,7 +164,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/pscanrulesAlpha-alpha-5.zap/download</url>
 		<info></info>
 		<size>1012736</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_pscanrulesAlpha>
@@ -181,7 +181,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/saml-alpha-2.zap/download</url>
 		<info>http://code.google.com/p/zaproxy/</info>
 		<size>984189</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_saml>
@@ -198,7 +198,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/simpleExample-alpha-1.zap/download</url>
 		<info></info>
 		<size>14550</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_simpleExample>
@@ -215,7 +215,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/sniTerminator-alpha-2.zap/download</url>
 		<info>http://www.computerist.org/blog/2014/07/23/Transparent-HTTPS-proxying-with-ZAP/</info>
 		<size>45883</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_sniTerminator>
@@ -232,7 +232,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/soap-alpha-1.zap/download</url>
 		<info></info>
 		<size>7231212</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_soap>
@@ -249,7 +249,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/sse-alpha-7.zap/download</url>
 		<info></info>
 		<size>306915</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_sse>
@@ -266,7 +266,7 @@
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/wappalyzer-alpha-3.zap/download</url>
 		<info></info>
 		<size>631743</size>
-		<date>2014-11-25</date>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_wappalyzer>
@@ -282,8 +282,8 @@
 		<changes></changes>
 		<url>http://sourceforge.net/projects/zaproxy/files/add-ons/retire-alpha-1.zap/download</url>
 		<info></info>
-		<size>37507</size>
-		<date>2014-11-25</date>
+		<size>37607</size>
+		<date>2014-11-28</date>
 		<not-before-version>2.3.0</not-before-version>
 		<not-from-version></not-from-version>
 	</addon_retire>
