@@ -8,6 +8,6 @@ Retire.js is an open-source tool that scans a website and generates alerts about
 used by it. ZAP is a very popular, open source web penetration testing tool.
 This project involves writing a [Retire.js](https://github.com/RetireJS/retire.js) add-on for [ZAP](https://github.com/zaproxy).
 
-## Thanks to:
+#### Thanks to:
 * Retire.js author [Erlend Oftedal](https://github.com/eoftedal).
 * ZAP and Mozilla community [OWASP ZAP](https://github.com/zaproxy).
